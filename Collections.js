@@ -43,7 +43,7 @@ function arrToObj(vr)
             return([index, value]);
         }
     );
-    return(Object.fromEntries(map));
+    return(mapToObj(map));
 }
 function strToObj(vr)
 {
@@ -52,7 +52,7 @@ function strToObj(vr)
             return([index, value]);
         }
     );
-    return(Object.fromEntries(map));
+    return(mapToObj(map));
 }
 
 function  superTypeOf(val)
@@ -68,7 +68,6 @@ function  superTypeOf(val)
     if(val === undefined)
         return 'undefined';
     return typeof(val);
-
 }
 
 
