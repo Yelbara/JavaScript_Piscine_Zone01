@@ -5,11 +5,8 @@ function repeat(str, n)
        throw new RangeError("Invalid repeat count");
     let n_str = "";
     n = Math.floor(n);
-    while(n > 0)
-    {
+    for(;n > 0;  n--)
         n_str += str;
-        n--;
-    }
     return (n_str);
 }
 const str = "abc";
