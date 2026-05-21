@@ -6,4 +6,4 @@ function letterSpaceNumber(str)
 // const s = /[a-zA-z]\s\d(?![a-zA-z0-9])/;
 
 // console.log(s.test('a 11'));
-console.log("a 1, x 2 d 4");
+console.log(letterSpaceNumber("a 1, x 2 d 4"));
